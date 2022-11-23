@@ -1,4 +1,4 @@
-  ### How to use the quickstart (Setup github actions and deployment)
+  # How to use the quickstart backend (Setup github actions and deployment)
 * You can etiher watch this video - https://cphbusiness.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=99debb59-7f1f-4ee2-b0ec-ada500bb9a88
 - or follow these steps: 
   - clone this project in a folder
