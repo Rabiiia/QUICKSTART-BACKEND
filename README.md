@@ -15,11 +15,12 @@
 -  Now push 
 
 # Local work
-### Add your local tomcat server in IDE
-### In Utils Package, run your SetupTestUsers if you want to test locally with default user and admin in IDE
+ - Add your local tomcat server in IDE
+ - In Utils Package, run your SetupTestUsers if you want to test locally for the default user and admin IDE
 
-# Added droplet.http in this java app
-- After push you can POST user directly to your droplet database in droplet.http file 
+# Added droplet.http in this java app (detailed instructions in the file)
+- After PUSH and your java app is succefully deployed on your droplet tomcat server
+- You can POST newly user with your own name directly to your droplet database in droplet.http file 
 
 
 
