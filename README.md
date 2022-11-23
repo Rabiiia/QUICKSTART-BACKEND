@@ -10,7 +10,7 @@
   - add secrets to your github repository on github (name and password that you wrote on your droplet tomcat server)
   - replace all the xxx' places in pom.xml 
   - replace either master or main in mavenworkflow.yml in .github package
-  - maven test locally in intelliJ (hopefully all green). 
+  - maven test locally in intelliJ (Should be all green!). 
     - Whener you rest assured test with your own endpoint you can always @Disabled in your rest assured test (above the class name) if it is chaotic and not green. And you dont have much time to deadline (you just have to exaplain why it didn't work, i guess.. in exam)
 -  Now push 
 
