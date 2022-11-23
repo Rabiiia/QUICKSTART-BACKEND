@@ -14,11 +14,11 @@
     - Must be green otherwise you can always @Disabled in your rest assured test (above the class name) if it is chaotic and you dont have much time to deadline
 -  Now push 
 
-# Local work
+### Local work
  - Add your local tomcat server in IDE
  - In Utils Package, run your SetupTestUsers if you want to test locally for the default user and admin IDE
 
-# Added droplet.http in this java app (detailed instructions in the file)
+### Added droplet.http in this java app (detailed instructions in the file)
 - After PUSH and your java app is succefully deployed on your droplet tomcat server
 - You can POST newly user with your own name directly to your droplet database in droplet.http file 
 
