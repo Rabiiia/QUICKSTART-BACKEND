@@ -79,8 +79,6 @@ public class DemoResource {
     public String getFromAdmin() {
         String thisuser = securityContext.getUserPrincipal().getName();
         String thisrole = "admin";
-        //if (securityContext.isUserInRole("admin")) thisrole = "admin";
-        //else if (securityContext.isUserInRole("user")) thisrole = "user";
 
         return "{\"username\": \"" + thisuser + "\",\"role\":\"" + thisrole + "\"}";
     }
