@@ -7,32 +7,20 @@
   - git add .
   - git commit -m "first commit"
 - before you push
-  - add secrets to your github repository on github
+  - add secrets to your github repository on github (name and password that you wrote on your droplet tomcat server)
   - replace all the xxx' places in pom.xml 
   - replace either master or main in mavenworkflow.yml in .github package
-  - maven test locally in intelliJ
-- Now push 
+  - maven test locally in intelliJ (hopefully all green). 
+    - Must be green otherwise you can always @Disabled in your rest assured test (above the class name) if it is chaotic and you dont have much time to deadline
+-  Now push 
 
-### Add your local tomcat server
-### In Utils Package, run your SetupTestUsers
+# Local work
+### Add your local tomcat server in IDE
+### In Utils Package, run your SetupTestUsers if you want to test locally with default user and admin in IDE
 
-
-### Maven test failed and how we solved
-
-In this alreade existing dependency i pom.xml
-
-<groupId>org.apache.maven.plugins</groupId>
-   <artifactId>maven-surefire-plugin</artifactId>
-   <version>2.21.0</version> 
-
-paste this in between
-- 
-               <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
-                </configuration>
+# Added droplet.http in this java app
+- After push you can POST user directly to your droplet database in droplet.http file 
 
 
-### Added extra
-- Token class
-- TokenEndpoint
-- getUser method in UserFacade
+
+
