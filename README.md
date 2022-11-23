@@ -11,7 +11,7 @@
   - replace all the xxx' places in pom.xml 
   - replace either master or main in mavenworkflow.yml in .github package
   - maven test locally in intelliJ (hopefully all green). 
-    - Must be green otherwise you can always @Disabled in your rest assured test (above the class name) if it is chaotic and you dont have much time to deadline
+    - Whener you rest assured test with your own endpoint you can always @Disabled in your rest assured test (above the class name) if it is chaotic and not green. And you dont have much time to deadline (you just have to exaplain why it didn't work, i guess.. in exam)
 -  Now push 
 
 ### Local work
