@@ -22,7 +22,7 @@
 
 ### Added droplet.http in this java app (detailed instructions in the file - MUST READ)
 - After PUSH and your java app is succesfully deployed on your droplet tomcat server
-- You can POST newly user with your own name directly to your droplet database in droplet.http file 
+- You can now POST newly user with your own name directly to your droplet database in droplet.http file 
 
 
 
