@@ -13,6 +13,8 @@
   - maven test locally in intelliJ (Should be all green!). 
     - Whener you rest assured test with your own endpoint you can always @Disabled in your rest assured test (above the class name) if it is chaotic and not green. And you dont have much time to deadline (you just have to exaplain why it didn't work, i guess.. in exam)
 -  Now push 
+-  Now check if your github actions also come up with green sign? (good sign if it is green, success -> deployed on your droplet tomcat server)
+-  Write yourDomainName/manager/html in url and check if your java app is actually deployed
 
 ### Local work
  - Add your local tomcat server in IDE
